@@ -32,6 +32,6 @@ Processing using napari-LF plugin
 Calibration_GUVExperim1-10.lfc: Number of Slices 10, um per Slice 1, Supersample 4
 -> output_stack-10.tif
 Calibration_GUVExperim1-10.lfc: Number of Slices 104, um per Slice 0.43, Supersample 4 
-	This calibration file is about 250MB and too big for Github storage. The file was deleted
+	This calibration file is about 250MB and too big for Github storage. The file was deleted from this Repository
 -> output_stack-104.tif
 
