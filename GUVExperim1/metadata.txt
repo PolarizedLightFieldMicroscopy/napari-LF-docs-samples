@@ -1,13 +1,13 @@
 {
     "main": {
-        "comments": "Experimental light field image of giant unilamellar vesicle (GUV) recorded by Rudolf Oldenbourg, Marine Biological Laboratory Woods Hole MA 2019"
+        "comments": "Experimental light field image of giant unilamellar vesicle (GUV) recorded by Rudolf Oldenbourg, Marine Biological Laboratory Woods Hole MA, in 2019"
     },
     "calibrate": {
         "radiometry_frame_file": "Radiometry_GUVExperim1.tif",
         "dark_frame_file": "DarkFrame_GUVExperim1.tif",
         "output_filename": "Calibration_GUVExperim1-10.lfc",
-        "calibration_files": "Calibration_GUVExperim1-30.lfc",
-        "calibration_files_viewer": "=== Groups: ['geometry', 'optics', 'psf', 'radiometry', 'rayspread'] === \n --- Group: geometry --- \n -- <HDF5 group \"/geometry\" (4 members)> -- \n <HDF5 dataset \"forwardCoefficients\": shape (2, 10), type \"<f4\"> \n <HDF5 dataset \"radiometryForwardCoefficients\": shape (2, 10), type \"<f4\"> \n <HDF5 dataset \"radiometryReverseCoefficients\": shape (2, 10), type \"<f4\"> \n <HDF5 dataset \"reverseCoefficients\": shape (2, 10), type \"<f4\"> \n --- Group: optics --- \n -- <HDF5 group \"/optics\" (0 members)> -- \n --- Group: psf --- \n -- <HDF5 group \"/psf\" (1 members)> -- \n <HDF5 dataset \"psf_db\": shape (111375450,), type \"|u1\"> \n --- Group: radiometry --- \n -- <HDF5 group \"/radiometry\" (4 members)> -- \n <HDF5 dataset \"dark_frame\": shape (436, 436), type \"<f4\"> \n <HDF5 dataset \"radiometric_correction\": shape (432, 448), type \"<f4\"> \n <HDF5 dataset \"radiometry\": shape (16, 16), type \"<f4\"> \n <HDF5 dataset \"rectified_radiometry\": shape (432, 448), type \"<f4\"> \n --- Group: rayspread --- \n -- <HDF5 group \"/rayspread\" (0 members)> -- \n ====================",
+        "calibration_files": "Calibration_GUVExperim1-10.lfc",
+        "calibration_files_viewer": "",
         "synthetic_lf": false,
         "use_ray_optics": false,
         "voxels_as_points": false,
