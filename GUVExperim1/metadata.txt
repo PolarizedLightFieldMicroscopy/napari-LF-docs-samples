@@ -40,7 +40,7 @@
         "debug": false
     },
     "rectify": {
-        "input_file": "Lightfield_GUVExperim1.tif",
+        "input_file": "output_stack-104.tif",
         "calibration_file": "Calibration_GUVExperim1-10.lfc",
         "output_filename": "Rectified.png",
         "subaperture": false,
