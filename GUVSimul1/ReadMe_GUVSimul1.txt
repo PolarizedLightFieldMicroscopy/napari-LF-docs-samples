@@ -1,7 +1,7 @@
 Simulated light field image of Giant Unilamellar Vesicle (GUV) 
 stained with fluorescent membrane stain radiating isotropically
 
-Simulation Software: RaytracingFluorIsotropic30Dec2021.nb
+Simulation Software: RaytracingFluorIsotropicJuly2022.nb
 
 voxPitch µLensPitch/3 = 0.5778µm,
 magnObj = 60;  (*magnification of objective lens*)
@@ -26,9 +26,14 @@ medium-index ~1.35
 
 FILES
 -----------------------------
-LightField_GUVSimul1.tif: Simulated light field image using guv[22,1], GUV radius = 22.5 0.5778 = 13.0µm
+LightField_GUVSimul1.tif: Simulated light field image, using simulateLF[guv[22, 1], {0, 0, 0}, {{-14, 14}, {-14, 14}}, True], 
+GUV radius = 22.5 0.5778 = 13.0µm
 Radiometry_GUVSimul1.tif: Radiometry image for generating calibration file
 DarkFrame_GUVSimul1.tif: Dark frame
 VolumeGroundTruth_GUVSimul1.tif: Volume stack used for simulating light field image, considered ground truth
+Direct_GUVSimul1.tif: Simulated direct image projected onto µLens array, using simulateDirect[guv[22, 1], {0, 0, 0}, {{-14, 14}, {-14, 14}}, True]
 
+Calibration_GUVSimul1-104.lfc: Number of Slices 104, um per Slice 0.43, Supersample 4 
+	This calibration file is about 250MB and too big for Github storage. The file was deleted from this Repository
+-> output_stack-104.tif
 
