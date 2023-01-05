@@ -37,3 +37,5 @@ Calibration_GUVSimul1-104.lfc: Number of Slices 104, um per Slice 0.43, Supersam
 	This calibration file is about 250MB and too big for Github storage. The file was deleted from this Repository
 -> output_stack-104.tif
 
+VolumeGroundTruth_GUVSimul1Scaled.tif: This file holds the same data as the original ground truth file, but slightly scaled and padded so it can directly be compared to the output_stack data.
+
