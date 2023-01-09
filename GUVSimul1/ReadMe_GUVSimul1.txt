@@ -22,7 +22,7 @@ magnification 60x  (*magnification of microscope objective lens*)
 na 1.2   (*numerical aperture of microscope objective lens*)
 tubelens-focal-length 200.0 
 wavelength 593 
-medium-index ~1.35 
+medium-index 1.35 
 
 FILES
 -----------------------------
@@ -31,11 +31,12 @@ GUV radius = 22.5 0.5778 = 13.0µm
 Radiometry_GUVSimul1.tif: Radiometry image for generating calibration file
 DarkFrame_GUVSimul1.tif: Dark frame
 VolumeGroundTruth_GUVSimul1.tif: Volume stack used for simulating light field image, considered ground truth
+VolumeGroundTruth_GUVSimul1.tif: Volume stack used for simulating light field image, considered 
 Direct_GUVSimul1.tif: Simulated direct image projected onto µLens array, using simulateDirect[guv[22, 1], {0, 0, 0}, {{-14, 14}, {-14, 14}}, True]
 
 Calibration_GUVSimul1-104.lfc: Number of Slices 104, um per Slice 0.43, Supersample 4 
 	This calibration file is about 250MB and too big for Github storage. The file was deleted from this Repository
 -> output_stack-104.tif
 
-VolumeGroundTruth_GUVSimul1Scaled.tif: This file holds the same data as the original ground truth file, but slightly scaled and padded so it can directly be compared to the output_stack data.
+VolumeGroundTruth_GUVSimul1Scaled.tif: This file holds the same data as the original ground truth file, but slightly scaled and padded so it occupies a volume of 104x104x104. The scaled version can directly be compared to the output_stack data and for generating a light field image using the Forward Projection
 

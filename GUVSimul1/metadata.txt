@@ -1,13 +1,11 @@
 {
     "main": {
-        "comments": "Experimental light field image of giant unilamellar vesicle (GUV) recorded by Rudolf Oldenbourg, Marine Biological Laboratory Woods Hole MA, in 2019"
+        "comments": "Simulated light field image of giant unilamellar vesicle (GUV) generated using ray tracing code by Rudolf Oldenbourg, Marine Biological Laboratory Woods Hole MA, in 2022"
     },
     "calibrate": {
         "radiometry_frame_file": "Radiometry_GUVSimul1.tif",
         "dark_frame_file": "DarkFrame_GUVSimul1.tif",
         "output_filename": "Calibration_GUVSimul1-104.lfc",
-        "calibration_files": "Calibration_GUVSimul1-100.lfc",
-        "calibration_files_viewer": "",
         "synthetic_lf": false,
         "use_ray_optics": false,
         "voxels_as_points": false,
