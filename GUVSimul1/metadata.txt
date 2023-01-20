@@ -5,7 +5,7 @@
     "calibrate": {
         "radiometry_frame_file": "Radiometry_GUVSimul1.tif",
         "dark_frame_file": "DarkFrame_GUVSimul1.tif",
-        "output_filename": "Calibration_GUVSimul1-104.lfc",
+        "output_filename": "Calibration_GUVSimul1-104-43-SS3.lfc",
         "synthetic_lf": false,
         "use_ray_optics": false,
         "voxels_as_points": false,
@@ -24,7 +24,7 @@
         "ulens_profile": "rect",
         "num_slices": 104,
         "um_per_slice": 0.43,
-        "supersample": 4,
+        "supersample": 5,
         "z_center": 0.0,
         "affine_alignment": false,
         "isometry_alignment": false,
@@ -38,16 +38,16 @@
         "debug": false
     },
     "rectify": {
-        "input_file": "DarkFrame_GUVSimul1.tif",
-        "calibration_file": "Calibration_GUVSimul1-104.lfc",
-        "output_filename": "Rectified.png",
+        "input_file": "LightField_GUVSimul1.tif",
+        "calibration_file": "Calibration_GUVSimul1-104-43-SS3.lfc",
+        "output_filename": "RectifiedSS3.tif",
         "subaperture": false,
         "output_pixels_per_lenslet": ""
     },
     "deconvolve": {
         "input_file": "LightField_GUVSimul1.tif",
-        "calibration_file": "Calibration_GUVSimul1-104.lfc",
-        "output_filename": "output_stack-104.tif",
+        "calibration_file": "Calibration_GUVSimul1-104-43-SS3.lfc",
+        "output_filename": "output_stack-104_SS3.tif",
         "solver": "rl",
         "alpha": 1.6,
         "multiscale_smoothing": false,
@@ -68,8 +68,8 @@
         "log_convergence": false
     },
     "hw": {
-        "gpu_id": "Apple",
-        "platform_id": "Apple M1 Max",
+        "gpu_id": "NVIDIA CUDA",
+        "platform_id": "NVIDIA RTX A5000",
         "use_single_prec": false,
         "disable_gpu": false
     }
